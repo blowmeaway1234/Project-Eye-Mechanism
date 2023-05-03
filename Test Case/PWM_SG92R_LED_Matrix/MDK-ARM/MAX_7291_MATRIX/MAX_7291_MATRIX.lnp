@@ -1,0 +1,25 @@
+--cpu Cortex-M3
+"max_7291_matrix\startup_stm32f103xb.o"
+"max_7291_matrix\max_7219.o"
+"max_7291_matrix\main.o"
+"max_7291_matrix\stm32f1xx_it.o"
+"max_7291_matrix\stm32f1xx_hal_msp.o"
+"max_7291_matrix\stm32f1xx_hal_gpio_ex.o"
+"max_7291_matrix\stm32f1xx_hal_spi.o"
+"max_7291_matrix\stm32f1xx_hal.o"
+"max_7291_matrix\stm32f1xx_hal_rcc.o"
+"max_7291_matrix\stm32f1xx_hal_rcc_ex.o"
+"max_7291_matrix\stm32f1xx_hal_gpio.o"
+"max_7291_matrix\stm32f1xx_hal_dma.o"
+"max_7291_matrix\stm32f1xx_hal_cortex.o"
+"max_7291_matrix\stm32f1xx_hal_pwr.o"
+"max_7291_matrix\stm32f1xx_hal_flash.o"
+"max_7291_matrix\stm32f1xx_hal_flash_ex.o"
+"max_7291_matrix\stm32f1xx_hal_exti.o"
+"max_7291_matrix\stm32f1xx_hal_tim.o"
+"max_7291_matrix\stm32f1xx_hal_tim_ex.o"
+"max_7291_matrix\system_stm32f1xx.o"
+--strict --scatter "MAX_7291_MATRIX\MAX_7291_MATRIX.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "MAX_7291_MATRIX.map" -o MAX_7291_MATRIX\MAX_7291_MATRIX.axf
